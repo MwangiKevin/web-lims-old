@@ -36,21 +36,5 @@ class MY_Loader extends MX_Loader {
 
 			return true;
 		}
-
-	}
-
-	public function filters($filters = null){
-		
-		$this->load->module('filters');
-		$this->filters->index($filters);
-
-		if(is_null($filters)){
-			//show_error('No filters infomation parsed to template');
-			return false;
-
-		}else{			
-
-			return true;
-		}
 	}
 }

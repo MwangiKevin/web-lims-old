@@ -26,8 +26,8 @@
     <div id="content_view" >
         <div class= "row" >
             <div id="sidemenu" class="col-md-2 sidemenu" > <?php $this -> load -> view('tmpl_side_menu_v'); ?></div>
-            <div id="main" class="col-md-10 main"><?php $this -> load -> view($content_view); ?>                
-                <?php $this -> load -> filters();$this->load->view("filters/filter_view"); ?>
+            <div id="main" class="col-md-10 main"><?php $this -> load -> view($content_view); ?>             
+                <?php $this->filters->index(); ?>
             </div>
         </div>
     </div>
