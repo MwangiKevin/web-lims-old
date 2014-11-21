@@ -110,6 +110,7 @@
     </div>
   </div>
   <!--forgot pass form-->
+  
   <!--Register form-->
   <div class="column" id="register_widget" style="float:right; width: 30%;  margin-top: 10%; margin-right: 8%;">
     <div class="ui fluid form segment">
