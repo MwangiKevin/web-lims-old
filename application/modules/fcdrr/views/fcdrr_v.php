@@ -55,7 +55,7 @@
 				<span class="input-group-addon my-input-group-caption">
 					Select Year
 				</span>
-				<select class="form-control" name="month" id="month" onchange="changeDate()" required >
+				<select class="form-control" name="year" id="year" onchange="changeDate()" required >
 					<option value="">Select A Year</option>
 				</select>
 			</div>
@@ -166,6 +166,7 @@
 	</div>
 
 	<div class="ui horizontal divider">END</div>
+
 	<div class="row" style="margin-top:20px;">
 		<div class="col-md-12">
 			<input type="submit" name="submit" value="Submit Commodity Report" class="button" />
@@ -176,5 +177,7 @@
 		</div>
 	</div>
 
-		<?php echo form_close();?>
+	<div class="ui horizontal divider"></div>
+
+	<?php echo form_close();?>
 </div>
