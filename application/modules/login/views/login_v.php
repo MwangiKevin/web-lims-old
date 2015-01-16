@@ -148,7 +148,13 @@ $(document).ready(function(){
       	</center>
     </div>
   </div>
+<<<<<<< HEAD
   
+=======
+  <!--forgot pass form-->
+  
+  <!--Register form-->
+>>>>>>> shohiek/feature/cd4
   <div class="column" id="register_widget" style="float:right; width: 30%;  margin-top: 10%; margin-right: 8%;">
     <div class="ui fluid form segment">
     	<form action="#" method="post">

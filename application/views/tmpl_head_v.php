@@ -25,3 +25,12 @@
 <script src="<?php echo base_url('assets/bower_components/semantic-ui/build/packaged/javascript/semantic.js');?>"></script>
 <script src="<?php echo base_url('assets/bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js');?>"></script>
 
+<!-- Datatables -->
+<link rel="stylesheet" href="<?php echo base_url('assets/oscars_plugins/DataTables/media/css/demo_page.css')?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/oscars_plugins/DataTables/media/css/demo_table.css')?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/oscars_plugins/DataTables/media/css/demo_table_jui.css')?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/oscars_plugins/DataTables/media/css/jquery.dataTables.css')?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/oscars_plugins/DataTables/media/css/jquery.dataTables_themeroller.css')?>" />
+
+<script src="<?php echo base_url('assets/oscars_plugins/DataTables/media/js/jquery.dataTables.min.js')?>"></script>
+

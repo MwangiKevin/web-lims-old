@@ -29,7 +29,6 @@ class MY_Loader extends MX_Loader {
 		if(is_null($data)){
 			show_error('No $data parsed to template');
 			return false;
-
 		}else{			
 			$this->load->module('template');
 			$this->template->index($data);

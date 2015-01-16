@@ -51,7 +51,7 @@ $(document).ready(function(){
 	    		// console.log("done",success);
   			}
   		});
-  	})
+  	});
 //login form  
   	
   //register form
@@ -64,8 +64,8 @@ $(document).ready(function(){
 			type: 'POST',
 			data:form_data,
 			success:function(success){
-	    		 //$("#alert-r").html(success);
-	    		console.log("done",success);
+	    		 $("#alert-r").html(success);
+	    		// console.log("done",success);
   			}
   		});
 	});
