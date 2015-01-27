@@ -123,33 +123,460 @@
 
 	<div class="row" style="margin-top:20px;">
 		<div class="col-md-12">
-			<table width="" id="commodities-table" >
+			<table width="" id="commodities-heading" style="font-size:12px;" >
 				<thead>
 					<tr>
-						<td rowspan="2"><b>COMMODITY CODE</b></td>
-						<td rowspan="2"><b>COMMODITY NAME</b></td>
-						<td rowspan="2"><b>UNIT OF ISSUE</b></td>
-						<td rowspan="2"><b>BEGINNING BALANCE</b></td>
-						<td colspan="2"><b>QUANTITY RECEIVED FROM CENTRAL<br/> WAREHOUSE (e.g. KEMSA)</b></td>             
-						<td rowspan="2"><b>QUANTITY USED</b></td>
-						<td rowspan="2"><b>LOSSES/WASTAGE</b></td>
-						<td colspan="2"><b>ADJUSTMENTS<br/><i>Indicate if (+) or (-)</i></b></td>
-						<td rowspan="2"><b>ENDING BALANCE <br/>PYSICAL COUNT at end of the Month</b></td>
-						<td rowspan="2"><b>QUANTITY REQUESTED</b></td>
+						<td style="border:1px solid black !important" rowspan="2"><b><center>Commodity Name</center></b></td>
+						<td rowspan="2" style="border:1px solid black !important"><b><center>Unit Of Issue</center></b></td>
+						<td rowspan="2" style="border:1px solid black !important"><b><center>Beginning<br />Balance</center></b></td>
+						<td rowspan="2"style="border:1px solid black !important"><b>Quantity Recevied This Month From Central<br/> WAREHOUSE (e.g. KEMSA)</b></td>             
+						<td rowspan="2" style="border:1px solid black !important"><b><center>Quantity Used</center></b></td>
+						<td rowspan="2" style="border:1px solid black !important"><b><center>Losses / Wastages &nbsp;</center></b></td>
+						<td colspan="2"style="border:1px solid black !important"><b>Adjustments<br/><i>Indicate if (+) or (-)</i></b></td>
+						<td rowspan="2" style="border:1px solid black !important"><b><center>End Of Month<br/>Physical Count</center></b></td>
+						<td rowspan="2" style="border:1px solid black !important"><b><center>Quantity<br />Requested</center></b></td>
 					</tr>
 					<tr>
-						<td>Quantity</td>
-						<td>Lot No.</td>
-						<td>Positive</td>
-						<td>Negative</td>    
+						<!-- <td style="border:1px solid black !important">Quantity</td>
+						<td style="border:1px solid black !important">Lot No.</td> -->
+						<td style="border:1px solid black !important">Positive</td>
+						<td style="border:1px solid black !important">Negative</td>    
+					</tr>
+
+					<tr>
 					</tr>
 				</thead>	    
 				<tbody>  
-					<?php
-
-					?>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">FACS Calibur reagents and consumables</td></tr>
+					<tr>
+						<td>Tri-TEST CD3/CD4/CD45 with<br />TruCOUNT Tubes</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Falcon Tubes</td>
+						<td><center>Pieces</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Printing Paper</td>
+						<td><center>Reams</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Printer Catridge</td>
+						<td><center>Reams</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">FACS Count Reagents</td></tr>
+					<tr>
+						<td>FACSCount CD4/CD3 Reagent [Adult]</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>FACSCount CD4 % reagent[Paediatric]</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">Cyflow Partec reagents</td></tr>
+					<tr>
+						<td>EASY Count CD4/CD3 Reagent[Adult]</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>EASY Count CD4 % reagent[Paediatric]</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">Point of Care CD4 reagents (e.g. PIMA, etc)</td></tr>
+					<tr>
+						<td>Catridges</td>
+						<td><center>Pieces</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">Haematology</td></tr>
+					<tr><td rowspan="1" colspan="4" style="border:1px solid black !important;background:#eeeeee;">
+									Indicate the type of equipment in your facility
+									(e.g. Celtac 6400, Coulter, Celtac 8222, etc)
+						</td>
+						<td rowspan="1" colspan="6" style="border:1px solid black !important;background:#eeeeee;"></td>
+					</tr>
+					<tr>
+						<td>Cell / ACT Pack </td>
+						<td><center>Litres</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Cell Clean / ACT Rinse</td>
+						<td><center>Litres</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>ACT Diff 3 kits </td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>ACT Diff 5 kits</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Celtac 6400 kits</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Celtac 8222</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Haemo cuvettes</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr><td rowspan="1" colspan="10" style="border:1px solid black !important;background:#eeeeee;">Biochemistry</td></tr>
+					<tr><td rowspan="1" colspan="4" style="border:1px solid black !important;background:#eeeeee;">
+									Indicate the type of equipment in your facility
+									(e.g. BTS 330/310/305, Urolyser, Humalizer
+									2000/3000, C111 Cobas, etc)
+						</td>
+						<td rowspan="1" colspan="6" style="border:1px solid black !important;background:#eeeeee;"></td>
+					</tr>
+					<tr>
+						<td>Albumin</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Alkaline phosphatase</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>ALT (SGPT)</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>AST (SGOT)</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Creatinine</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Potassium</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Sodium </td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Gamma GT</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Glucose test strips</td>
+						<td><center>Pieces</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>HDL Cholestero</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Pregnancy test strips</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Serum Amylase test kit </td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Haemo cuvettes</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Serum protein kit</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Total Cholesterol</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Triglycerides</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Bilirubin</td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
+					<tr>
+						<td>Urea </td>
+						<td><center>Tests</center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><center><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></center></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+						<td><input name="" id="" style="width:100px;" size="5" type="text" class="form-control" required/></td>
+					</tr>
 				</tbody>
 			</table>
+
 		</div>
 	</div>
 
