@@ -32495,7 +32495,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: middle;
+  /*changed from vertical-align: baseline;*/
 }
 
 /* line 4, ../../bower_components/chosen/public/docsupport/style.css */
