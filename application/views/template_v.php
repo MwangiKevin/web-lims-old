@@ -2,7 +2,7 @@
 <head >
     <?php $this -> load -> view('tmpl_head_v'); ?>
 </head>
-<body class="">  
+<body class="container" style="width: 99%;">  
     <div class="" style="margin: 0 0 0 0;">
         <div class="" id=""><b><?php echo date("l, d F Y");?></b> 
             <span>|</span> 
