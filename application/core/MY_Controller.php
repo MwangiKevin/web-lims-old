@@ -3,10 +3,14 @@
 /* The MX_Controller class is autoloaded as required */
 
 class  MY_Controller  extends  MX_Controller {
+
+	public $view_data;
 	
 	function __construct() {
 		parent::__construct();
 		date_default_timezone_set('Africa/Nairobi');
+		
+		$this->load->module('filters');
 	}
 
 }
